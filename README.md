@@ -18,3 +18,16 @@ This repository contains a notebook demonstrating the architecture for building 
 1. **Bronze Layer**: Serves as the initial landing zone for data from external sources,
 2. **Silver Layer**: Define the schema, transform data from the bronze to the silver layer, and write it.
 3. **Gold Layer**: Aggregate data from the silver layer, perform calculations, and store aggregated data in consumption-ready form.
+
+## Sample Data
+
+```json
+{
+    "temperature": 20,
+    "humidity": 60,
+    "windSpeed": 10,
+    "windDirection": "NW",
+    "precipitation": 0,
+    "conditions": "Partly Cloudy"
+}
+```
